@@ -1,0 +1,4 @@
+python3.4 -m doctest -v amazon.py
+python3.4 `which nosetests` amazon.py
+pep8 amazon.py
+pylint amazon.py
